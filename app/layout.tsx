@@ -4,6 +4,7 @@ import './globals.css'
 import { cn } from '@/lib/utils'
 import { Providers } from '@/components/ThemeProvider'
 import Header from '@/components/layout/Header'
+import Footer from '@/components/layout/Footer'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -25,11 +26,17 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang='en'>
-      <body className={cn(inter.variable, manrope.variable, 'font-mr bg-light dark:bg-dark')}>
+      <body
+        className={cn(
+          inter.variable,
+          manrope.variable,
+          'font-mr bg-light dark:bg-dark dark:text-dark'
+        )}
+      >
         <Providers>
           <Header />
           {children}
-          {/* <Footer /> */}
+          <Footer />
         </Providers>
       </body>
     </html>

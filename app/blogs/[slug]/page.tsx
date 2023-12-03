@@ -1,4 +1,5 @@
 import BlogDetails from '@/components/Blog/BlogDetail'
+import RenderMdx from '@/components/Blog/RenderMdx'
 import Tag from '@/components/Tag'
 import { siteMetadata } from '@/constants/siteMetaData'
 import { allBlogs } from 'contentlayer/generated'
@@ -187,7 +188,7 @@ export default function BlogPage({ params }: { params: { slug: string } }) {
               </ul>
             </details>
           </div>
-          {/* <RenderMdx blog={blog} /> */}
+          <RenderMdx blog={blog} />
         </div>
       </article>
     </>

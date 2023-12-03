@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import Logo from './Logo'
 import { useState } from 'react'
-import { siteMetadata } from '@/constants/siteMetaData'
+import { siteMetadata } from '@/constants/siteMetadata'
 import { DribbbleIcon, GithubIcon, LinkedinIcon, MoonIcon, SunIcon, TwitterIcon } from '../Icons'
 import { cn } from '@/lib/utils'
 import { useTheme } from 'next-themes'

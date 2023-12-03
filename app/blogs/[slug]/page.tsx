@@ -1,7 +1,7 @@
 import BlogDetails from '@/components/Blog/BlogDetail'
 import RenderMdx from '@/components/Blog/RenderMdx'
 import Tag from '@/components/Tag'
-import { siteMetadata } from '@/constants/siteMetaData'
+import { siteMetadata } from '@/constants/siteMetadata'
 import { allBlogs } from 'contentlayer/generated'
 import { slug } from 'github-slugger'
 import { Metadata } from 'next'

@@ -79,6 +79,7 @@ const codeOptions = {
 
 export default makeSource({
   /* options */
+  disableImportAliasWarning: true,
   contentDirPath: 'content',
   documentTypes: [Blog],
   mdx: {

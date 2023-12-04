@@ -4,7 +4,7 @@ import React from 'react'
 import { useForm } from 'react-hook-form'
 import { DribbbleIcon, GithubIcon, LinkedinIcon, TwitterIcon } from '../Icons'
 import Link from 'next/link'
-import { siteMetadata } from 'constants/siteMetadata'
+import { siteMetadata } from '@/lib/siteMetadata'
 
 const Footer = () => {
   const {

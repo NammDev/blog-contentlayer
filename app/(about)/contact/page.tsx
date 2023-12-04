@@ -1,6 +1,6 @@
 import ContactForm from '@/components/Contact/ContactForm'
 import LottieAnimation from '@/components/Contact/LottieAnimation'
-import { siteMetadata } from '@/constants/siteMetadata'
+import { siteMetadata } from '@/lib/siteMetadata'
 
 export const metadata = {
   title: 'Contact Me',

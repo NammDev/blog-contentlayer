@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils'
 import { Providers } from '@/components/ThemeProvider'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
-import { siteMetadata } from '@/constants/siteMetadata'
+import { siteMetadata } from '@/lib/siteMetadata'
 
 const inter = Inter({
   subsets: ['latin'],

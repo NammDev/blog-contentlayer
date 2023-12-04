@@ -30,7 +30,7 @@ const ViewCounter = ({ slug, noCount = false, showCount = true }: ViewCounterPro
     if (!noCount) {
       incrementView()
     }
-  }, [slug, noCount])
+  }, [slug, noCount, supabase])
 
   useEffect(() => {
     const getViews = async () => {
@@ -47,7 +47,7 @@ const ViewCounter = ({ slug, noCount = false, showCount = true }: ViewCounterPro
       }
     }
     getViews()
-  }, [slug])
+  }, [slug, supabase])
 
   if (showCount) {
     return <div>{views} views</div>

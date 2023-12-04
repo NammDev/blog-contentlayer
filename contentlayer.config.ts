@@ -86,7 +86,7 @@ export default makeSource({
     rehypePlugins: [
       rehypeSlug,
       [rehypeAutolinkHeadings, { behavior: 'append' }],
-      [rehypePrettyCode, codeOptions],
+      // [rehypePrettyCode, codeOptions],
     ],
   },
 })

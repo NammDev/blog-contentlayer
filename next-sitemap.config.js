@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 const NextSitemapConfig = {
-  siteUrl: 'https://create-blog-with-nextjs.vercel.app',
+  siteUrl: 'https://blog-contentlayer-six.vercel.app',
   generateRobotsTxt: true,
 }
 
